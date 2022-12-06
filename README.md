@@ -1,13 +1,14 @@
 # Canvas Maker
 
-
-
-
-
-
 ## Introduction
 
 This is a Python script that uses the PySimpleGUI library to create a graphical user interface (GUI) for a program that allows users to select an image of a room and an image of a painting, and then automatically pastes the painting onto the wall of the room in the image.
+
+## Features
+
+- Easy-to-use GUI for selecting images of a room and a painting
+- Automatically pastes the painting onto the wall of the room in the image
+- Displays and saves the resulting image
 
 ## Requirements
 
@@ -32,6 +33,15 @@ To run the script, use the following command:
 ```python canvas_maker.py```
 
 This will open the GUI, which will allow you to select the images of the room and the painting. Once you have selected the images, click the "MAKE CANVAS" button to paste the painting onto the wall of the room. The resulting image will be displayed and saved to the "temp" directory.
+
+## Functions
+
+The script includes the following functions:
+
+- `resize_by_percentage(image, outfile, percentage)`: This function resizes an image by a specified percentage.
+- `convertImage()`: This function converts an image to have a transparent background.
+- `paste()`: This function pastes one image onto another image.
+- `pastam(x, y)`: This function pastes an image onto a specific location on another image.
 
 ## Functions
 
