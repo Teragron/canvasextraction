@@ -52,9 +52,6 @@ The script includes the following functions:
 - `paste()`: This function pastes one image onto another image.
 - `pastam(x, y)`: This function pastes an image onto a specific location on another image.
 
-## Demo
-[![Watch the video](https://i.imgflip.com/604ad4.jpg)](https://www.youtube.com/watch?v=tM6KFKM0MS0)
-
 ## Menu
 
 ![](menu.png)
